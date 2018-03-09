@@ -7,7 +7,7 @@ __author__ = 'Jason315'
 
 import re, time, json, logging, hashlib, base64, asyncio
 from coreweb import get, post
-from models import User, Comment, Blog, next_id
+from models import User, Comment, Blog
 
 @get('/')
 async def index(request):
