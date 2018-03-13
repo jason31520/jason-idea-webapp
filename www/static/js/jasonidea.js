@@ -133,6 +133,7 @@ function refresh() {
 }
 
 function toSmartDate(timestamp) {
+    console.log(333,"test line",timestamp);
     if (typeof(timestamp)==='string') {
         timestamp = parseInt(timestamp);
     }
